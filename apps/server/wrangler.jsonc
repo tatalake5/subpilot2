@@ -12,7 +12,7 @@
     // 改成别的名字，`wrangler deploy` 会**新建**一个 Worker，
     // 而域名仍指向旧的那个 —— 表现就是「部署成功但线上没变」。
     // 要换名字得先解绑域名再改绑，别只改这一行。
-    "name": "subpilot-x",
+    "name": "subpilot2",
     "main": "src/index.js",
     "compatibility_date": "2026-01-01",
     "compatibility_flags": ["nodejs_compat"],
@@ -29,7 +29,7 @@
     "kv_namespaces": [
         {
             "binding": "DATA",
-            "id": "403748f66fe342fd8a2d4b22498a7700"
+            "id": "8be6b0e2d3bf4feb9a30c2509457b55a"
         }
     ],
 
